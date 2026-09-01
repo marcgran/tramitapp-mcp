@@ -3,15 +3,13 @@
 venv/
 env/
 
-# Secretos — NUNCA subir a GitHub
+# Secretos y notas locales — NUNCA subir a GitHub
 .env
-API.txt
+.info/
 
-# Config local de Claude Code (permisos de esta máquina)
+# Instrucciones locales de Claude Code (no se publican)
+CLAUDE.md
 .claude/settings.local.json
-
-# Proyecto ajeno (plugin GLPI) — pendiente de mover a su propia carpeta
-tablets/
 
 # Python
 __pycache__/
