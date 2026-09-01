@@ -1,0 +1,28 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Secretos — NUNCA subir a GitHub
+.env
+API.txt
+
+# Config local de Claude Code (permisos de esta máquina)
+.claude/settings.local.json
+
+# Proyecto ajeno (plugin GLPI) — pendiente de mover a su propia carpeta
+tablets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,2 @@
+mcp>=1.2.0,<2  # el código usa FastMCP (API 1.x); mcp 2.x lo renombró a MCPServer
+httpx>=0.27.0
