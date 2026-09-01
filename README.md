@@ -49,7 +49,7 @@ Todas las herramientas con ámbito de empresa aceptan un parámetro opcional `em
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/TU_USUARIO/tramitapp-mcp.git
+git clone https://github.com/marcgran/tramitapp-mcp.git
 cd tramitapp-mcp
 ```
 
@@ -78,7 +78,7 @@ cp .env.example .env
 # Edita .env y pon tu TRAMITAPP_API_TOKEN
 ```
 
-> **Token demo vs. producción**: TramitApp entrega primero un token de cuenta demo para pruebas. Al hacer la integración real te proporcionan un token nuevo. No intercambies uno por otro sin actualizar la config.
+> La clave de API se solicita al soporte de TramitApp (chat de la aplicación o soporte@tramitapp.com).
 
 ---
 

@@ -91,7 +91,7 @@ Env vars (all optional except `TRAMITAPP_API_TOKEN`):
 | `TRAMITAPP_TIMEOUT` | `30` | Seconds |
 | `TRAMITAPP_EMPRESA_ID` | *(empty)* | optional default company (name or `_id`); each tool's `empresa` param overrides it |
 
-**Demo token ≠ production token.** TramitApp issues a demo token first; do not hardcode it.
+API keys are issued by TramitApp support (in-app chat or soporte@tramitapp.com). Never hardcode the token.
 
 ## Implemented tools
 
